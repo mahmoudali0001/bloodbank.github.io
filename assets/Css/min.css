@@ -1,0 +1,464 @@
+/*Start Upper bar*/
+.upper-bar
+{
+    background: #243142;
+    color: #FFF;
+    padding: 10px;
+    position: relative;
+}
+.upper-bar span::after
+{
+    content:" | " ;
+    color: #b8b8b8;
+    opacity: .8;
+}
+.upper-bar span:last-of-type::after
+{
+    content: none;
+}
+/* End upper bar*/
+/* Start Nav bar*/
+.btn-style
+{
+    background-color: #243142;
+    width: 102px;
+    margin-right: 15px;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color: #ba1f23;
+    border-bottom: 1px solid #b31f22;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ba1f23;
+}
+/* End Nav bar*/
+/* Start slider */
+
+.carousel-indicators
+{
+    left: 21%;
+}
+.carousel-inner div h2
+{
+    position: absolute;
+    color: #a82022;
+    z-index: 2;
+    font-size: 27px;
+    text-align: right;
+    max-width: 850px;
+    line-height: 1.7;
+    right: 100px;
+    top: 30%;
+}
+@media(max-width:768px)
+{
+    .carousel-inner div h2
+    {
+        font-size: 14px;
+        right: 7%;
+        top: 23%;
+    }
+
+}
+@media(max-width:576px)
+{
+    .carousel-inner div h2
+    {
+        font-size: 13px;
+        right: 3%;
+        top: 25%;
+    }
+}
+.carousel-inner div h2 p
+{
+    color: #59595a;
+    line-height: 1.8;
+}
+.carousel-inner div a
+{
+    position: absolute;
+    right: 100px;
+    top: 70%;
+    z-index: 2;
+    width: 10%;
+}
+@media(max-width:768px)
+{
+    .carousel-inner div a
+    {
+        width: 14%;
+        top: 63%;
+        right: 5%;
+        font-size: 10px;
+    } 
+}
+@media(max-width:576px)
+{
+    .carousel-inner div a
+    {
+        top: 78%;
+        right: 0%;
+    }
+}
+/* End slider*/
+/* Start About us */
+.about-us
+{
+    background-image: url(../image/about.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+@media(max-width:768px)
+{
+    .about-us
+    {
+        background-image: none;
+    }
+    
+}
+/* End About us */
+/* Start Articles*/
+.articles
+{
+    position: relative;
+}
+.head-line
+{
+    border-bottom: 1px solid #a82022;
+    color: #a82022;
+    padding: 8px;
+    font-size: 25px;    
+    margin-bottom: 8px;
+    display: block;
+    width: 95px;
+}
+
+.articles .owl-nav
+{
+    position: absolute;
+    top: -53px;
+    left: 92px;
+    transform: scale(1.9);
+}
+.articles .info
+{
+    position: relative;
+}
+.articles .card .card-title
+{
+    font-size: 22px;
+    color: #d01f24;
+}
+.articles .card .card-text
+{
+    font-size: 13px;
+    color: #5a5555ad;
+}
+.articles .card .btn
+{
+    font-size: 16px;
+    width: 133px;
+    background-color: #243142;
+    border: 1px solid #243142;
+}
+/* End Articles*/
+/*Start Donation requests*/
+.donation-Requests
+{
+    background-color: #f1f1f1;
+    padding-top: 42px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.search-icon
+{
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 12px;
+}
+.input-group .form-control:first-child
+{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+}
+[type=button]:not(:disabled)
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.donation-details
+{
+    padding: 3px;
+    text-align: right;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-bottom: 10px;
+
+}
+.donation-details h1
+{
+    margin: auto;
+    border-radius: 50%;
+    background-color: #eee;
+    width: 135px;
+    height: 114px;
+    text-align: center;
+    font-size: 61px;
+    padding: 10px 13px 9px 10px;
+    
+}
+.dis
+{
+    display: inline-block;
+
+}
+
+/*End Donation requests*/
+/* Start Contact us*/
+.contact-us
+{
+    background-image: url(../image/call.jpg);
+    background-size: cover;
+    margin-top: 31px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.contact-us .contact-details img
+{
+   max-width: 60px;;
+}
+.contact-num
+{
+    padding: 13px 13px 10px 0;
+    background-color: #33b322;
+    color: #fff;
+    border-radius: 121px 100px 97px 89px;
+}
+.contact-num h3
+{   
+    font-size: 22px;
+    font-weight: lighter;
+}
+@media(max-width:768px)
+{
+    .contact-num h3
+    {
+        font-size: 16px;
+    }
+}
+/* End Contact us*/
+/* Start blood bank app*/
+.blood-bank-app
+{
+    background-image: url(../image/BG-phone.png);
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.blood-bank-details
+{
+    padding-top: 20px;
+}
+.btn-blood-app
+{
+    background-image: url(../image/ios.png);
+    background-size: cover;
+    width: 100%;
+}
+/* End blood bank app*/
+/* Start Footer*/
+.footer
+{
+    padding-top: 100px;
+    background-color: #2d3e50;
+}
+
+.footer .site-info  h1
+{
+    font-size: 50px;
+    margin-bottom: 19px;
+}
+
+.footer .site-info  h1 span:first-child /* color of the frist name of logo*/
+{
+    font-weight: bold;    
+    color: #08526d;
+}
+
+.footer .site-info h1 span:last-child /* color of the second name of logo*/
+{
+    color: #ec1c23;
+}
+
+.footer .site-info p
+{
+    line-height: 1.8;
+    color: #7d7d7d;
+}
+
+.footer .site-info a
+{
+    color: #08526d;
+}
+
+.footer .helpful-links h2,
+.footer .contact h2
+{
+    font-size: 26px;
+    color: #08526d;
+    margin-bottom: 46px;
+}
+
+.footer .helpful-links .row 
+{
+    color: #5375a9;
+}
+
+.footer .contact ul li 
+{
+    margin-bottom: 24px;
+    color: #8e8585e6;
+    font-weight: 600;   
+}
+@media(max-width:992px)
+{
+    .footer .helpful-links h2,
+    .footer .contact h2
+    {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+/* End Footer*/
+/* Start Copyright */
+.copyright
+{
+    background-color: #121921;
+    border-top: 2px solid #121921;
+    padding: 10px;
+}
+
+.copyright ul
+{
+    margin: 0
+            
+}
+.copyright ul li 
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.copyright ul li a
+{
+    color: #fff;
+}
+/* End Copyright */
+/* Start breadcrumb*/
+.breadcrumb
+{
+    background-color: #fff;
+}
+/* End breadcrumb*/
+/* Start Input*/
+.inputWidthIcon input[type-text]
+{
+    padding: 40px;
+}
+.inputWidthIcon
+{
+    position: relative;
+}
+.inputWidthIcon i
+{
+    position: absolute;
+    top:12px;
+    left: 15px;
+}
+/* End Input*/
+/* Start Sign In page check box*/
+input[type=checkbox]+label
+{
+    display: block;
+    margin:0.2em;
+}
+ input[type=checkbox]
+{
+    display: none;
+}
+input[type=checkbox]+label::before
+{
+    content: "\2714";
+    border: 0.06em solid #000;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 1em;
+    padding-right: 0.32em;
+    padding-bottom: 1.4em;
+    margin-left:0.5em;
+    vertical-align: bottom;
+    color: transparent;
+
+}
+
+input[type=checkbox]+label:before
+{
+    background-color: rgb(11, 193, 199);
+    color: #fff;
+}
+/* End Sign In page check box*/
+/* Start Disease prevention*/
+.disease-info
+{
+    position: relative;
+}
+.heart
+{
+    position: absolute;
+    border: 1px solid #eee;
+    padding: 11px;
+    border-radius: 50%;
+    top: 7px;
+    left: 11px;
+}
+/* End Disease prevention*/
+/* Start contact page */
+.contact-page
+{
+    font-size: 20px;
+    background-color: #243142;
+    padding: 10px;
+    color: #fFF;
+}
+.contact-text
+{
+    color: #8a8a8a;
+    font-size: 19px;
+}
+/* End Cotact page */
+/* Start donation requeste page*/
+.donation-req-info
+{
+    padding-right: 23px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    background-color: #f5f5f5;
+}
+.donation-req-data
+{
+    padding-top: 9px;
+    background: #f3f3f33d;
+} 
+/* End donation requeste page*/
